@@ -32,6 +32,7 @@ function go(){
     
         
     });
+   
     finishButton.addEventListener("click",function(){
         paragraf.classList.toggle("deneme");
         
