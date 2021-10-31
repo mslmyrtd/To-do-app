@@ -37,9 +37,9 @@ button:hover{
     
 }
 .contentDiv{
-height: 50vh;
+min-height: 40vh;
 width: 520px;
-background-color:lightcyan;
+background-color:rgb(231, 231, 103);
 margin-top: 10px;
 font-size: 25px;
 padding: 1rem;
@@ -74,12 +74,14 @@ padding: 1rem;
 }
 .deneme{
     text-decoration: line-through;
+    background-color: green;
 }
 p{
     border:solid 1px rgb(221, 126, 181);
     border-radius: 5px;
     background-color: rgb(231, 218, 38);
     margin-bottom: 5px;
+    padding: 10px;
     
 }
 h2{

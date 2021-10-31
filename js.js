@@ -25,7 +25,7 @@ function go(){
     paragraf.appendChild(deleteButton);
     paragraf.appendChild(finishButton);
     input.value="";
-
+    
     deleteButton.addEventListener("click", function(){
         count--;
         contentDiv.removeChild(paragraf);
@@ -34,8 +34,10 @@ function go(){
     });
     finishButton.addEventListener("click",function(){
         paragraf.classList.toggle("deneme");
-        paragraf.style.backgroundColor="green"
+        
     })
 }
 }
+
+
 
