@@ -28,10 +28,14 @@ function go(){
 
     deleteButton.addEventListener("click", function(){
         count--;
-        contentDiv.removeChild(paragraf)
+        contentDiv.removeChild(paragraf);
+    
+        
     });
     finishButton.addEventListener("click",function(){
-        paragraf.classList.toggle("deneme")
+        paragraf.classList.toggle("deneme");
+        paragraf.style.backgroundColor="green"
     })
 }
 }
+
