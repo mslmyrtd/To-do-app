@@ -36,9 +36,18 @@ function go(){
     finishButton.addEventListener("click",function(){
         paragraf.classList.toggle("deneme");
         
+        
     })
 }
 }
 
 
-
+function myClock(){
+    var tarih = new Date();
+    var yil = tarih.getFullYear();
+    var ay = tarih.getMonth();
+    var gun = tarih.getDate();
+    var h2 = document.getElementById("clock");
+    h2.innerHTML = gun+":" + ay + ":"+yil ;
+}
+setInterval(myClock,100);

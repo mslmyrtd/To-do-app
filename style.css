@@ -5,7 +5,6 @@
     
 }
 h1{
-    font-family:'Irish Grover', cursive;
     margin: 25px ;
     font-size: 50px;
 }
@@ -14,12 +13,14 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: aqua;
+    font-family:'Irish Grover', cursive;
 }
 input{
     height: 50px;
     width: 450px;
     outline: none;
     box-shadow: lightpink;
+    padding-left: 10px;
     
 }
 input:hover{
@@ -75,6 +76,7 @@ padding: 1rem;
 .deneme{
     text-decoration: line-through;
     background-color: green;
+    opacity: 0.5;
 }
 p{
     border:solid 1px rgb(221, 126, 181);
